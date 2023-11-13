@@ -1,4 +1,104 @@
-.myProfilePic{
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(171, 33, 186);
+    border: 2px solid;
+    
+}
+
+
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+}
+
+body{
+    background-color: #33393f; 
+ }
+
+ .aboutmeflexbox{
+    display: flex;
+    justify-content: center;
+ }
+
+ .myProfilePic{
     height: 250px;
     width: 250px;
+    border-radius: 25px;
+    border: 2px solid;
 }
+
+p {
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.aboutmeflexbox{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+
+   .aboutmeflexbox{
+    flex-wrap: wrap;
+   }
+  
+    }
+
+#aboutMe{
+    padding: 10px;
+    margin: 20px;
+}
+
+h2{
+    color: white;
+}
+
+#myWork{
+    padding: 10px;
+    margin: 20px;
+    background-color: red
+
+}
+
+.listOfProjects{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.projectsFlex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#contactMe{
+    padding: 10px;
+    margin: 20px;
+    background-color: red
+}
+
+#pfooter{
+    font-size: 15px;
+    
+}
+

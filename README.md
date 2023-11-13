@@ -1,1 +1,3 @@
 # Carlos-Challenge-2
+
+The task that presented to me is a portfolio webpage utilizing elements from both HTML and CSS. MY approach to this project was to first layout the webpage on where sections will be laid out. These include the title, navbar, contact info, code projects, and introduction. After setting where I want my sections to be, I would apply a style sheet to give the webpage some design and interactivity. 
